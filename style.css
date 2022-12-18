@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(178, 181, 184);
+}
+.main-div h1{
+    text-align: center;
+    border: 2px solid #bb6868;
+    background-color: #bb6868;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.all-courses{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    grid-gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.single-course{
+    border: 1px solid #bb6868;
+    margin: 10px;
+    
+}
+.single-course{
+    padding: 10px;
+}
+.single-course img {
+    width: 100%;
+  
+
+}
+.single-course h2{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.single-course p{
+    font-size: 16px;
+}
+.footer{
+    display: flex;
+}
+.footer h4{
+    margin-left: 20px;
+    margin-right: 250px;
+}
+.footer button{
+    padding: 0px 5px;
+    height: 40px;
+    margin-top: 10px;
+}
+@media screen and (max-width:600px) {
+    .all-courses{
+        display: grid;
+        grid-template-columns: repeat(1,12fr);
+        margin-right: 10px;
+    }
+    .footer button{
+        height: 40px;
+    }
+    .footer h4{
+        margin-right: 200px;
+    }
+
+
+    
+}
+
